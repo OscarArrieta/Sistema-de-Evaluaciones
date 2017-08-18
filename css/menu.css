@@ -1,0 +1,50 @@
+#menu {position:relative; height:34px;background:url(../../pic/menu/bg_menu.jpg);z-index: 1;border: 1px solid #ccc; margin: 2px auto;}
+#menu-curret-page{
+	height: 24px;
+	width: 40%;
+	float: right;
+	display: block;
+	color: #111;
+	font-weight: bold;
+	padding-top: 6px;
+	text-align: right;
+	padding-right: 5px;
+}
+#dropline {float: left;position:relative; font-size:12px; height:32px;display: inline}
+#dropline, #dropline ul {padding:0; margin:0; list-style:none; width:60%;display: block;}
+#dropline table {border-collapse:collapse; margin:-1px -10px; ; padding:0; width:0; height:0; font-size:12px;}
+#dropline li {max-width: 200px;float:left; height:32px; border-right:1px solid #cccccc;background:url(../../pic/menu/arrow.png) no-repeat right center}
+#dropline li:hover{
+		background: none transparent;
+}
+#dropline li a {float:left;margin-right: 10px; display:block; height:38px; line-height:38px; padding:0 20px 0 10px; font-family:arial, sans-serif; font-size:11px; color:#111; text-decoration:none; font-weight:normal;}
+#dropline li ul.hijos{
+	width: 200px;
+	position:absolute; 
+	font-size:12px;
+	margin-top: 32px;
+	background: #000 no-repeat right center;
+	display: none;
+}
+#dropline li ul.hijos li.submenu{
+	background: url('../../pic/16x16/setting.png') no-repeat left center #D7D7D7;
+	float:left;
+	height:38px; 
+	border: none;
+	width: 100%;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+#dropline li ul.hijos li.submenu a{
+	color: #111;
+	padding-left: 18px;
+	
+}
+#dropline li ul.hijos li.submenu a:hover{
+	color: #FF9900;
+	
+}
+
+#dropline li ul.hijos li.submenu a{
+	
+}
